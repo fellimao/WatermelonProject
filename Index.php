@@ -17,7 +17,7 @@
     <body>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
           <a class="navbar-brand" href="#">
-            <img src="img/logomarca.png" alt="Logo" style="width:40px;">
+            <img src="img/logomarca.png" alt="Logo" style="width:100px;">
           </a>
           <ul class="navbar-nav">
             <li class="nav-item">

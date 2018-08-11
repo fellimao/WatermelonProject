@@ -1,3 +1,22 @@
 body{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', serif;/* Tipo da fonte */
+    font-size: 1.5rem;/* Tamanho da fonte */
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #009800;/* Cor dos links da barra selecionados */
+}
+
+.nav>li>a {
+    color: #009800;/* Cor dos links da barra*/
+} 
+
+.navbar {
+    background-color: #343a40 !important;/* Cor da barra de navegação */
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;/* Cor do texto */
+  background-color: #009800; /* Cor do item do dropdown */
 }

@@ -21,10 +21,13 @@
             nav-pills -> Adiciona o efeito de "pilula"
             nav-dropdown -> Adiciona o efeito de pilha
         -->
-        <nav class="navbar navbar-expand-sm">
+        <nav class="navbar navbar-expand-sm fixed-top">
           <a class="navbar-brand" href="#">
-              <!-- Logotipo -->
-            <img src="img/logomarca.png" alt="Logo" style="width:65px;">
+              
+              <!-- Logotipo
+                De preferencia em PNG
+                -->
+            <img src="img/logomarca.png" alt="Logo" style="width:80px;">
           </a>
             
       <!-- Links -->
@@ -54,9 +57,51 @@
     <!-- Conteudo que aparece ao clicar nos links-->
     <div class="tab-content">
         
-    <div id="texto1" class="container tab-pane active"><br>
-      <h3>Texto 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div id="texto1" class="container-fluid tab-pane active"><br>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+          <!-- Indicadores-->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+
+          <!-- Mostra de imagens -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/04-wallpaper_macos-mojave.jpg" style="filter: brightness(50%);">
+              <div class="carousel-caption">
+                <h1>Titulo 1</h1>
+                <p>Lorem ipsum</p>
+              </div> 
+            </div>
+            <div class="carousel-item">
+              <img src="img/3955783-road-wallpaper.jpg" style="filter: brightness(50%);">
+              <div class="carousel-caption">
+                <h1>Titulo 2</h1>
+                <p>Lorem ipsulum</p>
+              </div> 
+            </div>
+            <div class="carousel-item">
+              <img src="img/London%20Sidewalk%20Sunset%20Paved%20Street%20Free%20Wallpaper%20HD.jpg" style="filter: brightness(50%);">
+              <div class="carousel-caption">
+                <h1>Titulo 3</h1>
+                <p>Lorem ipsulum</p>
+              </div> 
+            </div>
+          </div>
+
+          <!-- Esquerda e direita (setas) -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+
+        </div>
+        
     </div>
         
     <div id="info1" class="container tab-pane fade"><br>
@@ -78,9 +123,14 @@
       <h3>texto 3</h3>
       <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
     </div>
-        
-        
+      
   </div>
+        
+        
+        <!-- Rodapé final do site-->
+        <div class="jumbotron text-center">
+          <p>Website e imagem pertencente a InfoBioJr - Todos os direitos reservados - 2018</p>
+        </div>
 
     </body>
 </html>

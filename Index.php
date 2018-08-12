@@ -57,7 +57,9 @@
     <!-- Conteudo que aparece ao clicar nos links-->
     <div class="tab-content">
         
-    <div id="texto1" class="container-fluid tab-pane active"><br>
+    <div id="texto1" class="container-fluid tab-pane active">
+        
+        <!-- Inicio Carousel-->
         <div id="demo" class="carousel slide" data-ride="carousel">
 
           <!-- Indicadores-->
@@ -101,8 +103,76 @@
           </a>
 
         </div>
+        <!-- Final Carousel -->
         
+        <!-- Inicio Jumbotron -->
+        <!-- Final Jumbotron-->
+        
+        <!-- Inicio Grid 2 -->
+        <!-- Final Grid 2-->
+        
+        <!-- Inicio Grid 3 -->
+        <!-- Final Grid 3-->
+        
+        <!-- Inicio Grid 2 com imagem -->
+        <!-- Final Grid 2 com imagem-->
+        
+        <!-- Inicio Cards -->
+    
+<div class="card-columns">
+    
+    <div class="card" style="width:400px">
+      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <div class="card-body">
+        <h4 class="card-title">Nome</h4>
+        <p class="card-text">Texto qualquer</p>
+        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+      </div>
     </div>
+
+    <div class="card" style="width:400px">
+      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <div class="card-body">
+        <h4 class="card-title">Nome</h4>
+        <p class="card-text">Texto qualquer</p>
+      </div>
+    </div>
+
+    <div class="card" style="width:400px">
+      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <div class="card-body">
+        <h4 class="card-title">Nome</h4>
+        <p class="card-text">Texto qualquer</p>
+      </div>
+    </div>
+
+    <div class="card" style="width:400px">
+      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <div class="card-body">
+        <h4 class="card-title">Nome</h4>
+        <p class="card-text">Texto qualquer</p>
+      </div>
+    </div>
+
+    <div class="card" style="width:400px">
+      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <div class="card-body">
+        <h4 class="card-title">Nome</h4>
+        <p class="card-text">Texto qualquer</p>
+      </div>
+    </div>
+
+    <div class="card" style="width:400px">
+      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <div class="card-body">
+        <h4 class="card-title">Nome</h4>
+        <p class="card-text">Texto qualquer</p>
+      </div>
+    </div>
+</div>
+        <!-- Final Cards -->
+        
+</div>
         
     <div id="info1" class="container tab-pane fade"><br>
       <h3>Info 1</h3>

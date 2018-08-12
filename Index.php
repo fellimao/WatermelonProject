@@ -812,8 +812,7 @@
         <!-- Final Cards -->
         
 </div>
-        
-        
+             
      <div id="texto3" class="container-fluid tab-pane fade">
         
         <!-- Inicio Carousel-->

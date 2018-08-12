@@ -32,3 +32,27 @@ body{
 #guia, #texto1, #texto2, #texto3{
     padding: 0;
 }
+
+/*Altera a cor do texto dos grids*/
+.text-desc{
+    color:darkgray !important;
+}
+
+/*Altera os titulos dos grids*/
+.minor-heading{
+    margin: 15px 0;
+    text-transform: none;
+}
+
+
+.fundoEscuro{
+    background-color: #343a40;
+    color: aliceblue;
+    padding: 4rem;
+}
+
+.fundoClaro{
+    background-color: aliceblue;
+    color: #343a40;
+    padding: 4rem;
+}

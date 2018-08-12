@@ -105,21 +105,68 @@
         </div>
         <!-- Final Carousel -->
         
-        <!-- Inicio Jumbotron -->
-        <!-- Final Jumbotron-->
-        
         <!-- Inicio Grid 2 -->
+        <div class="container-fluid fundoClaro">
+            <!-- Titulo -->
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Titulo maior</h2>
+                </div>
+                
+            <!-- Divisoes de texto -->
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <!-- Imagem com texto circulado-->
+                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300"> 
+                    <h4 class="minor-heading">Texto 1</h4>
+                    <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
+                </div>
+                <div class="col-md-6">
+                    <!-- Imagem com texto circulado-->
+                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300"> 
+                    <h4 class="minor-heading">Texto 1</h4>
+                    <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
+                </div>
+            </div>
+            </div>
+        </div>
         <!-- Final Grid 2-->
         
         <!-- Inicio Grid 3 -->
+        
+                <div class="container-fluid fundoEscuro">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Titulo maior</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300">
+                    <h4 class="minor-heading">Texto 1</h4>
+                    <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300">
+                    <h4 class="minor-heading">Texto 2</h4>
+                    <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
+                </div>
+                <div class="col-md-4" >
+                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300"> 
+                    <h4 class="minor-heading">Texto 3</h4>
+                    <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
+                </div>
+            </div>
+        </div>
+        
+        
         <!-- Final Grid 3-->
         
         <!-- Inicio Grid 2 com imagem -->
         <!-- Final Grid 2 com imagem-->
         
-        <!-- Inicio Cards -->
-    
-<div class="card-columns">
+        <!-- Inicio Cards -->    
+<div class="card-columns fundoClaro">
     
     <div class="card" style="width:400px">
       <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">

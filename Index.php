@@ -10,7 +10,6 @@
         <!-- Conexão com o bootstrap/javascript/jquery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="js/bootstrap.js"></script>
-        <script src="js/form.js"></script>
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/MainStyle.css" rel="stylesheet">
     </head>
@@ -150,7 +149,7 @@
                 <div class="col-md-4">
                     <h2 class="section-heading text-uppercase">Texto 1</h2>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
-                    <a id="Parasobre" class="btn bigger" role="button">Para - contatos</a>
+                    <a id="Parasobre" class="btn btn-success letraBranca bigger" role="button">Cadastro</a>
                 </div>
                 
         <!-- Script faz com que o botao funcione para a pagina desejada
@@ -159,7 +158,7 @@
         -->
         <script>
           $("#Parasobre").click(function() {
-            $('#guia li:eq(2) a').tab('show');
+            $('#guia li:eq(3) a').tab('show');
           })
         </script>
 
@@ -206,7 +205,7 @@
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
-        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+        <!-- <a href="#" class="btn btn-success btn btn-success-primary">See Profile</a> -->
       </div>
     </div>
 
@@ -339,7 +338,7 @@
                 <div class="col-md-4">
                     <h2 class="section-heading text-uppercase">Texto 1</h2>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
-                    <a id="Parasobre" class="btn bigger" role="button">Para - contatos</a>
+                    <a id="Parasobre" class="btn btn-success letraBranca bigger" role="button">Cadastro</a>
                 </div>
                 
         <!-- Script faz com que o botao funcione para a pagina desejada
@@ -348,7 +347,7 @@
         -->
         <script>
           $("#Parasobre").click(function() {
-            $('#guia li:eq(2) a').tab('show');
+            $('#guia li:eq(3) a').tab('show');
           })
         </script>
 
@@ -395,7 +394,7 @@
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
-        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+        <!-- <a href="#" class="btn btn-success btn btn-success-primary">See Profile</a> -->
       </div>
     </div>
 
@@ -528,7 +527,7 @@
                 <div class="col-md-4">
                     <h2 class="section-heading text-uppercase">Texto 1</h2>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
-                    <a id="Parasobre" class="btn bigger" role="button">Para - contatos</a>
+                    <a id="Parasobre" class="btn btn-success letraBranca bigger" role="button">Cadastro</a>
                 </div>
                 
         <!-- Script faz com que o botao funcione para a pagina desejada
@@ -537,7 +536,7 @@
         -->
         <script>
           $("#Parasobre").click(function() {
-            $('#guia li:eq(2) a').tab('show');
+            $('#guia li:eq(3) a').tab('show');
           })
         </script>
 
@@ -584,7 +583,7 @@
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
-        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+        <!-- <a href="#" class="btn btn-success btn btn-success-primary">See Profile</a> -->
       </div>
     </div>
 
@@ -717,7 +716,7 @@
                 <div class="col-md-4">
                     <h2 class="section-heading text-uppercase">Texto 1</h2>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
-                    <a id="Parasobre" class="btn bigger" role="button">Para - contatos</a>
+                    <a id="Parasobre" class="btn btn-success btn btn-success-warning letraBranca bigger" role="button">Cadastro</a>
                 </div>
                 
         <!-- Script faz com que o botao funcione para a pagina desejada
@@ -726,7 +725,7 @@
         -->
         <script>
           $("#Parasobre").click(function() {
-            $('#guia li:eq(2) a').tab('show');
+            $('#guia li:eq(3) a').tab('show');
           })
         </script>
 
@@ -773,7 +772,7 @@
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
-        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+        <!-- <a href="#" class="btn btn-success btn btn-success-primary">See Profile</a> -->
       </div>
     </div>
 
@@ -821,7 +820,7 @@
         
 </div>
              
-     <div id="texto3" class="container-fluid tab-pane fade">
+    <div id="texto3" class="container-fluid tab-pane fade">
         
         <!-- Inicio Carousel-->
         <div id="demo" class="carousel slide" data-ride="carousel">
@@ -906,7 +905,7 @@
                 <div class="col-md-4">
                     <h2 class="section-heading text-uppercase">Texto 1</h2>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
-                    <a id="Parasobre" class="btn bigger" role="button">Para - contatos</a>
+                    <a id="Parasobre" class="btn btn-success letraBranca letraBranca bigger" role="button">Cadastro</a>
                 </div>
                 
         <!-- Script faz com que o botao funcione para a pagina desejada
@@ -915,7 +914,7 @@
         -->
         <script>
           $("#Parasobre").click(function() {
-            $('#guia li:eq(2) a').tab('show');
+            $('#guia li:eq(3) a').tab('show');
           })
         </script>
 
@@ -962,7 +961,7 @@
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
-        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+        <!-- <a href="#" class="btn btn-success btn btn-success-primary">See Profile</a> -->
       </div>
     </div>
 
@@ -1009,7 +1008,21 @@
         <!-- Final Cards -->
         
 </div>      
-  </div>
+    
+        <div id="texto4" class="container-fluid tab-pane fade">
+            <div class="row justify-content-end">
+                <div class="col-md-6">
+                    <h1>teste 1</h1>
+                </div>
+                <div class="col-md-6">
+                    <h1>teste2</h1>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+    </div>
                
         <!-- Rodapé final do site-->
         <div class="jumbotron text-center">

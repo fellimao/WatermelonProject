@@ -1017,35 +1017,63 @@
     
         <div id="texto4" class="container-fluid tab-pane fade">
             <div class="row justify-content-center">
+                
+                
                 <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-header"><h1>Login</h1>
-                        Lorem ipsum et cetera
+                    <div class="card card-LogCad">
+                        <div class="card-header-login card-header"><h1 class="letraBranca">Login</h1>
+                            <p class="letraBranca">Lorem ipsum et cetera</p>
                         </div>
-                      <div class="card-body"><form action="/Validar.php">
+                      <div class="card-body card-body-LogCad"><form action="/Validar.php">
                           <div class="form-group">
-                            <label for="email">Email address:</label>
+                            <label for="email">Email:</label>
                             <input type="email" class="form-control" id="email">
                           </div>
                           <div class="form-group">
-                            <label for="pwd">Password:</label>
+                            <label for="pwd">Senha:</label>
                             <input type="password" class="form-control" id="pwd">
                           </div>
                           <div class="form-group form-check">
                             <label class="form-check-label">
                             </label>
                           </div>
-                          <button type="submit" class="btn btn-primary">Submit</button>
-                        </form></div> 
+                          <button type="submit" class="btn btn-success">Logar</button>
+                        </form>
+                      </div> 
                     </div>
                 </div>
+                
+                
                 <div class="col-md-4">
-                    <div class="card">
-                      <div class="card-header">Header</div>
-                      <div class="card-body">Content</div> 
-                      <div class="card-footer">Footer</div>
+                    <div class="card card-LogCad">
+                        <div class="card-header card-header-cad"><h1 class="letraBranca">Cadastro</h1>
+                            <p class="letraBranca">Lorem ipsum et cetera</p>
+                        </div>
+                      <div class="card-body card-body-LogCad">
+                        <form action="/Validar.php">
+                          <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email">
+                          </div>
+                          <div class="form-group">
+                            <label for="pwd">Senha:</label>
+                            <input type="password" class="form-control" id="pwd">
+                          </div>
+                        <div class="form-group">
+                            <label for="pwd">Senha novamente:</label>
+                            <input type="password" class="form-control" id="pwd">
+                          </div>
+                          <div class="form-group form-check">
+                            <label class="form-check-label">
+                            </label>
+                          </div>
+                          <button type="submit" class="btn btn-danger">Cadastrar</button>
+                        </form>
+                      </div> 
                     </div>
                 </div>
+                
+                
             </div>
         </div>
         

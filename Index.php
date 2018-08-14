@@ -94,7 +94,12 @@
             </div>
           </div>
 
-          <!-- Esquerda e direita (setas) -->
+          <!-- Esquerda e direita (setas) 
+
+                Para tirar as setas e/ou as barras de marcação
+                use a classe hidden no local desejado
+
+            -->
           <a class="carousel-control-prev" href="#demo" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
           </a>
@@ -117,13 +122,13 @@
             <div class="row text-center">
                 <div class="col-md-6">
                     <!-- Imagem com texto circulado-->
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-6">
                     <!-- Imagem com texto circulado-->
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
@@ -137,7 +142,7 @@
                 <div class="container-fluid fundoClaro">
             <div class="row text-center">
                 <div class="col-md-8">
-                    <img src="img/logomarca.jpeg" class="img-fluid" width="400" height="400"> 
+                    <img src="img/cart.png" class="img-fluid" width="400" height="400"> 
                 </div>
                 <div class="col-md-4">
                     <h2 class="section-heading text-uppercase">Texto 1</h2>
@@ -169,17 +174,17 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300">
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300">
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300">
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300">
                     <h4 class="minor-heading">Texto 2</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-4" >
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
                     <h4 class="minor-heading">Texto 3</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
@@ -194,7 +199,7 @@
 <div class="card-columns fundoClaro">
     
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -203,7 +208,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -211,7 +216,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -219,7 +224,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -227,7 +232,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -235,7 +240,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -306,13 +311,13 @@
             <div class="row text-center">
                 <div class="col-md-6">
                     <!-- Imagem com texto circulado-->
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-6">
                     <!-- Imagem com texto circulado-->
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
@@ -326,7 +331,7 @@
                 <div class="container-fluid fundoClaro">
             <div class="row text-center">
                 <div class="col-md-8">
-                    <img src="img/logomarca.jpeg" class="img-fluid" width="400" height="400"> 
+                    <img src="img/cart.png" class="img-fluid" width="400" height="400"> 
                 </div>
                 <div class="col-md-4">
                     <h2 class="section-heading text-uppercase">Texto 1</h2>
@@ -358,17 +363,17 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300">
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300">
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300">
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300">
                     <h4 class="minor-heading">Texto 2</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-4" >
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
                     <h4 class="minor-heading">Texto 3</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
@@ -383,7 +388,7 @@
 <div class="card-columns fundoClaro">
     
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -392,7 +397,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -400,7 +405,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -408,7 +413,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -416,7 +421,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -424,7 +429,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -495,13 +500,13 @@
             <div class="row text-center">
                 <div class="col-md-6">
                     <!-- Imagem com texto circulado-->
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-6">
                     <!-- Imagem com texto circulado-->
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
@@ -515,7 +520,7 @@
                 <div class="container-fluid fundoClaro">
             <div class="row text-center">
                 <div class="col-md-8">
-                    <img src="img/logomarca.jpeg" class="img-fluid" width="400" height="400"> 
+                    <img src="img/cart.png" class="img-fluid" width="400" height="400"> 
                 </div>
                 <div class="col-md-4">
                     <h2 class="section-heading text-uppercase">Texto 1</h2>
@@ -547,17 +552,17 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300">
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300">
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300">
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300">
                     <h4 class="minor-heading">Texto 2</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-4" >
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
                     <h4 class="minor-heading">Texto 3</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
@@ -572,7 +577,7 @@
 <div class="card-columns fundoClaro">
     
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -581,7 +586,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -589,7 +594,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -597,7 +602,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -605,7 +610,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -613,7 +618,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -684,13 +689,13 @@
             <div class="row text-center">
                 <div class="col-md-6">
                     <!-- Imagem com texto circulado-->
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-6">
                     <!-- Imagem com texto circulado-->
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
@@ -704,7 +709,7 @@
                 <div class="container-fluid fundoClaro">
             <div class="row text-center">
                 <div class="col-md-8">
-                    <img src="img/logomarca.jpeg" class="img-fluid" width="400" height="400"> 
+                    <img src="img/cart.png" class="img-fluid" width="400" height="400"> 
                 </div>
                 <div class="col-md-4">
                     <h2 class="section-heading text-uppercase">Texto 1</h2>
@@ -736,17 +741,17 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300">
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300">
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300">
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300">
                     <h4 class="minor-heading">Texto 2</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-4" >
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
                     <h4 class="minor-heading">Texto 3</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
@@ -761,7 +766,7 @@
 <div class="card-columns fundoClaro">
     
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -770,7 +775,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -778,7 +783,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -786,7 +791,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -794,7 +799,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -802,7 +807,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -873,13 +878,13 @@
             <div class="row text-center">
                 <div class="col-md-6">
                     <!-- Imagem com texto circulado-->
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-6">
                     <!-- Imagem com texto circulado-->
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
@@ -893,7 +898,7 @@
                 <div class="container-fluid fundoClaro">
             <div class="row text-center">
                 <div class="col-md-8">
-                    <img src="img/logomarca.jpeg" class="img-fluid" width="400" height="400"> 
+                    <img src="img/cart.png" class="img-fluid" width="400" height="400"> 
                 </div>
                 <div class="col-md-4">
                     <h2 class="section-heading text-uppercase">Texto 1</h2>
@@ -925,17 +930,17 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300">
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300">
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300">
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300">
                     <h4 class="minor-heading">Texto 2</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-4" >
-                    <img src="img/Green-Wallpaper-3.jpg" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
                     <h4 class="minor-heading">Texto 3</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
@@ -950,7 +955,7 @@
 <div class="card-columns fundoClaro">
     
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -959,7 +964,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -967,7 +972,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -975,7 +980,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -983,7 +988,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>
@@ -991,7 +996,7 @@
     </div>
 
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img/logomarca.jpeg" alt="foto">
+      <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
         <p class="card-text">Texto qualquer</p>

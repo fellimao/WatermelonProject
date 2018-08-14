@@ -51,6 +51,9 @@
         <li class="nav-item">
           <a class="nav-link" data-toggle="pill" href="#texto3">Texto 3</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#texto4">Cadastrar/Logar</a>
+        </li>
       </ul>
         </nav>
     
@@ -147,7 +150,7 @@
                 <div class="col-md-4">
                     <h2 class="section-heading text-uppercase">Texto 1</h2>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
-                    <a id="Parasobre" class="btn btn-warning big" role="button">Para - contatos</a>
+                    <a id="Parasobre" class="btn bigger" role="button">Para - contatos</a>
                 </div>
                 
         <!-- Script faz com que o botao funcione para a pagina desejada
@@ -336,7 +339,7 @@
                 <div class="col-md-4">
                     <h2 class="section-heading text-uppercase">Texto 1</h2>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
-                    <a id="Parasobre" class="btn btn-warning big" role="button">Para - contatos</a>
+                    <a id="Parasobre" class="btn bigger" role="button">Para - contatos</a>
                 </div>
                 
         <!-- Script faz com que o botao funcione para a pagina desejada
@@ -525,7 +528,7 @@
                 <div class="col-md-4">
                     <h2 class="section-heading text-uppercase">Texto 1</h2>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
-                    <a id="Parasobre" class="btn btn-warning big" role="button">Para - contatos</a>
+                    <a id="Parasobre" class="btn bigger" role="button">Para - contatos</a>
                 </div>
                 
         <!-- Script faz com que o botao funcione para a pagina desejada
@@ -714,7 +717,7 @@
                 <div class="col-md-4">
                     <h2 class="section-heading text-uppercase">Texto 1</h2>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
-                    <a id="Parasobre" class="btn btn-warning big" role="button">Para - contatos</a>
+                    <a id="Parasobre" class="btn bigger" role="button">Para - contatos</a>
                 </div>
                 
         <!-- Script faz com que o botao funcione para a pagina desejada
@@ -903,7 +906,7 @@
                 <div class="col-md-4">
                     <h2 class="section-heading text-uppercase">Texto 1</h2>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
-                    <a id="Parasobre" class="btn btn-warning big" role="button">Para - contatos</a>
+                    <a id="Parasobre" class="btn bigger" role="button">Para - contatos</a>
                 </div>
                 
         <!-- Script faz com que o botao funcione para a pagina desejada
@@ -1005,12 +1008,9 @@
 </div>
         <!-- Final Cards -->
         
-</div>
-        
-      
+</div>      
   </div>
-        
-        
+               
         <!-- Rodapé final do site-->
         <div class="jumbotron text-center">
           <p>Website e imagem pertencente a InfoBioJr - Todos os direitos reservados - 2018</p>

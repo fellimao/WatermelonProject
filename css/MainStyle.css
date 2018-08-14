@@ -1,4 +1,4 @@
-body{
+﻿body{
     font-family: 'Roboto Slab', serif;/* Tipo da fonte */
     font-size: 1.5rem;/* Tamanho da fonte */
 }
@@ -55,4 +55,9 @@ body{
     background-color: aliceblue;
     color: #343a40;
     padding: 4rem;
+}
+
+/*Aumenta o tamanho da fonte*/
+.bigger{
+    font-size: 2rem;
 }

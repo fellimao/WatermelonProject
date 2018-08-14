@@ -255,14 +255,14 @@
         
     <div id="info1" class="tab-pane fade">
         
-        <!-- Inicio Carousel-->
-        <div id="demo" class="carousel slide" data-ride="carousel">
+      <!-- Inicio Carousel-->
+        <div id="demo1" class="carousel slide" data-ride="carousel">
 
           <!-- Indicadores-->
           <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo1" data-slide-to="0" class="active"></li>
+            <li data-target="#demo1" data-slide-to="1"></li>
+            <li data-target="#demo1" data-slide-to="2"></li>
           </ul>
 
           <!-- Mostra de imagens -->
@@ -290,11 +290,16 @@
             </div>
           </div>
 
-          <!-- Esquerda e direita (setas) -->
-          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <!-- Esquerda e direita (setas) 
+
+                Para tirar as setas e/ou as barras de marcação
+                use a classe hidden no local desejado
+
+            -->
+          <a class="carousel-control-prev" href="#demo1" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
           </a>
-          <a class="carousel-control-next" href="#demo" data-slide="next">
+          <a class="carousel-control-next" href="#demo1" data-slide="next">
             <span class="carousel-control-next-icon"></span>
           </a>
 
@@ -440,18 +445,19 @@
 </div>
         <!-- Final Cards -->
         
+        
 </div>
              
     <div id="info2" class="tab-pane fade">
         
         <!-- Inicio Carousel-->
-        <div id="demo" class="carousel slide" data-ride="carousel">
+        <div id="demo2" class="carousel slide" data-ride="carousel">
 
           <!-- Indicadores-->
           <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo2" data-slide-to="0" class="active"></li>
+            <li data-target="#demo2" data-slide-to="1"></li>
+            <li data-target="#demo2" data-slide-to="2"></li>
           </ul>
 
           <!-- Mostra de imagens -->
@@ -480,10 +486,10 @@
           </div>
 
           <!-- Esquerda e direita (setas) -->
-          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <a class="carousel-control-prev" href="#demo2" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
           </a>
-          <a class="carousel-control-next" href="#demo" data-slide="next">
+          <a class="carousel-control-next" href="#demo2" data-slide="next">
             <span class="carousel-control-next-icon"></span>
           </a>
 
@@ -634,13 +640,13 @@
     <div id="info3" class="tab-pane fade">
         
         <!-- Inicio Carousel-->
-        <div id="demo" class="carousel slide" data-ride="carousel">
+        <div id="demo3" class="carousel slide" data-ride="carousel">
 
           <!-- Indicadores-->
           <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo3" data-slide-to="0" class="active"></li>
+            <li data-target="#demo3" data-slide-to="1"></li>
+            <li data-target="#demo3" data-slide-to="2"></li>
           </ul>
 
           <!-- Mostra de imagens -->
@@ -669,10 +675,10 @@
           </div>
 
           <!-- Esquerda e direita (setas) -->
-          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <a class="carousel-control-prev" href="#demo3" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
           </a>
-          <a class="carousel-control-next" href="#demo" data-slide="next">
+          <a class="carousel-control-next" href="#demo3" data-slide="next">
             <span class="carousel-control-next-icon"></span>
           </a>
 
@@ -820,16 +826,16 @@
         
 </div>
              
-    <div id="texto3" class="container-fluid tab-pane fade">
+    <div id="texto3" class="tab-pane fade">
         
         <!-- Inicio Carousel-->
-        <div id="demo" class="carousel slide" data-ride="carousel">
+        <div id="demo4" class="carousel slide" data-ride="carousel">
 
           <!-- Indicadores-->
           <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo4" data-slide-to="0" class="active"></li>
+            <li data-target="#demo4" data-slide-to="1"></li>
+            <li data-target="#demo4" data-slide-to="2"></li>
           </ul>
 
           <!-- Mostra de imagens -->
@@ -858,10 +864,10 @@
           </div>
 
           <!-- Esquerda e direita (setas) -->
-          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <a class="carousel-control-prev" href="#demo4" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
           </a>
-          <a class="carousel-control-next" href="#demo" data-slide="next">
+          <a class="carousel-control-next" href="#demo4" data-slide="next">
             <span class="carousel-control-next-icon"></span>
           </a>
 
@@ -1010,12 +1016,35 @@
 </div>      
     
         <div id="texto4" class="container-fluid tab-pane fade">
-            <div class="row justify-content-end">
-                <div class="col-md-6">
-                    <h1>teste 1</h1>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header"><h1>Login</h1>
+                        Lorem ipsum et cetera
+                        </div>
+                      <div class="card-body"><form action="/Validar.php">
+                          <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" id="email">
+                          </div>
+                          <div class="form-group">
+                            <label for="pwd">Password:</label>
+                            <input type="password" class="form-control" id="pwd">
+                          </div>
+                          <div class="form-group form-check">
+                            <label class="form-check-label">
+                            </label>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </form></div> 
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <h1>teste2</h1>
+                <div class="col-md-4">
+                    <div class="card">
+                      <div class="card-header">Header</div>
+                      <div class="card-body">Content</div> 
+                      <div class="card-footer">Footer</div>
+                    </div>
                 </div>
             </div>
         </div>

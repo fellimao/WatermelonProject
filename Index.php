@@ -19,43 +19,48 @@
             fixed-top -> Deixa a barra presa no topo
             nav-pills -> Adiciona o efeito de "pilula"
             nav-dropdown -> Adiciona o efeito de pilha
-        -->
-        <nav class="navbar navbar-expand-sm">
+        -->             
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                       
+        <!-- Logotipo de preferencia em PNG -->
           <a class="navbar-brand" href="#">
-              
-              <!-- Logotipo
-                De preferencia em PNG
-                -->
             <img src="img/logomarca.png" alt="Logo" style="width:80px;">
-          </a>
+            </a>
             
-      <!-- Links -->
-      <ul id="guia" class="nav nav-pills" role="tablist">
-        <li class="nav-item">
-          <a class="nav-link active" data-toggle="pill" href="#texto1">Texto 1</a>
-        </li>
+            <!-- Botão para celular -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbarreduzida">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+            <div class="collapse navbar-collapse" id="Navbarreduzida">
+              <!-- Links -->
+              <ul id="guia" class="nav nav-pills" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" data-toggle="pill" href="#texto1">Texto 1</a>
+                </li>
 
-        <!-- Dropdown -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-            Texto 2
-          </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" data-toggle="pill" href="#info1">Info 1</a>
-            <a class="dropdown-item"data-toggle="pill"  href="#info2">Info 2</a>
-            <a class="dropdown-item" data-toggle="pill" href="#info3">Info 3</a>
-          </div>
-        </li>
-          
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="pill" href="#texto3">Texto 3</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="pill" href="#texto4">Cadastrar/Logar</a>
-        </li>
-      </ul>
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Texto 2
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" data-toggle="pill" href="#info1">Info 1</a>
+                    <a class="dropdown-item"data-toggle="pill"  href="#info2">Info 2</a>
+                    <a class="dropdown-item" data-toggle="pill" href="#info3">Info 3</a>
+                  </div>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="pill" href="#texto3">Texto 3</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="pill" href="#texto4">Cadastrar/Logar</a>
+                </li>
+              </ul>
+            </div>
         </nav>
-    
+        
     <!-- Conteudo que aparece ao clicar nos links-->
     <div class="tab-content">
         
@@ -124,13 +129,13 @@
             <div class="row text-center">
                 <div class="col-md-6">
                     <!-- Imagem com texto circulado-->
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" > 
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-6">
                     <!-- Imagem com texto circulado-->
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" > 
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
@@ -139,12 +144,11 @@
         </div>
         <!-- Final Grid 2-->
         
-        <!-- Inicio Grid 2 com imagem -->
-        
-                <div class="container-fluid fundoClaro">
+        <!-- Inicio Grid 2 com imagem -->       
+        <div class="container-fluid fundoClaro">
             <div class="row text-center">
                 <div class="col-md-8">
-                    <img src="img/cart.png" class="img-fluid" width="400" height="400"> 
+                    <img src="img/cart.png" class="img-fluid"> 
                 </div>
                 <div class="col-md-4">
                     <h2 class="section-heading text-uppercase">Texto 1</h2>
@@ -166,9 +170,8 @@
         </div>
         <!-- Final Grid 2 com imagem-->
         
-        <!-- Inicio Grid 3 -->
-        
-                <div class="container-fluid fundoEscuro">
+        <!-- Inicio Grid 3 -->       
+        <div class="container-fluid fundoEscuro">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading text-uppercase">Titulo maior</h2>
@@ -176,31 +179,28 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300">
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" >
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300">
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" >
                     <h4 class="minor-heading">Texto 2</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-4" >
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" > 
                     <h4 class="minor-heading">Texto 3</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
             </div>
-        </div>
-        
-        
+        </div>        
         <!-- Final Grid 3-->
-    
-        
+          
         <!-- Inicio Cards -->    
-<div class="card-columns fundoClaro">
+        <div class="card-columns fundoClaro">
     
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -209,7 +209,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -217,7 +217,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -225,7 +225,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -233,7 +233,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -241,7 +241,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -318,13 +318,13 @@
             <div class="row text-center">
                 <div class="col-md-6">
                     <!-- Imagem com texto circulado-->
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" > 
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-6">
                     <!-- Imagem com texto circulado-->
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" > 
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
@@ -370,17 +370,17 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300">
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" >
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300">
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" >
                     <h4 class="minor-heading">Texto 2</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-4" >
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" > 
                     <h4 class="minor-heading">Texto 3</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
@@ -394,7 +394,7 @@
         <!-- Inicio Cards -->    
 <div class="card-columns fundoClaro">
     
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -403,7 +403,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -411,7 +411,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -419,7 +419,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -427,7 +427,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -435,7 +435,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -508,13 +508,13 @@
             <div class="row text-center">
                 <div class="col-md-6">
                     <!-- Imagem com texto circulado-->
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" > 
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-6">
                     <!-- Imagem com texto circulado-->
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" > 
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
@@ -560,17 +560,17 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300">
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" >
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300">
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" >
                     <h4 class="minor-heading">Texto 2</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-4" >
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" > 
                     <h4 class="minor-heading">Texto 3</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
@@ -584,7 +584,7 @@
         <!-- Inicio Cards -->    
 <div class="card-columns fundoClaro">
     
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -593,7 +593,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -601,7 +601,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -609,7 +609,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -617,7 +617,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -625,7 +625,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -697,13 +697,13 @@
             <div class="row text-center">
                 <div class="col-md-6">
                     <!-- Imagem com texto circulado-->
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" > 
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-6">
                     <!-- Imagem com texto circulado-->
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" > 
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
@@ -749,17 +749,17 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300">
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" >
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300">
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" >
                     <h4 class="minor-heading">Texto 2</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-4" >
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" > 
                     <h4 class="minor-heading">Texto 3</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
@@ -773,7 +773,7 @@
         <!-- Inicio Cards -->    
 <div class="card-columns fundoClaro">
     
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -782,7 +782,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -790,7 +790,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -798,7 +798,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -806,7 +806,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -814,7 +814,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -886,13 +886,13 @@
             <div class="row text-center">
                 <div class="col-md-6">
                     <!-- Imagem com texto circulado-->
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" > 
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-6">
                     <!-- Imagem com texto circulado-->
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" > 
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
@@ -938,17 +938,17 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300">
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" >
                     <h4 class="minor-heading">Texto 1</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300">
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" >
                     <h4 class="minor-heading">Texto 2</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
                 <div class="col-md-4" >
-                    <img src="img/leaves.png" class="rounded-circle"  width="300" height="300"> 
+                    <img src="img/leaves.png" class="rounded-circle img-fluid" > 
                     <h4 class="minor-heading">Texto 3</h4>
                     <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedi</p>
                 </div>
@@ -962,7 +962,7 @@
         <!-- Inicio Cards -->    
 <div class="card-columns fundoClaro">
     
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -971,7 +971,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -979,7 +979,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -987,7 +987,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -995,7 +995,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>
@@ -1003,7 +1003,7 @@
       </div>
     </div>
 
-    <div class="card" style="width:400px">
+    <div class="card">
       <img class="card-img-top" src="img/pawn.png" alt="foto">
       <div class="card-body">
         <h4 class="card-title">Nome</h4>

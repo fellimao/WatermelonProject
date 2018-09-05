@@ -13,10 +13,6 @@
     color: #009800;/* Cor dos links da barra*/
 } 
 
-.navbar {
-    background-color: #EEE9E9 !important;/* Cor da barra de navegação */
-}
-
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;/* Cor do texto */
   background-color: #009800; /* Cor do item do dropdown */

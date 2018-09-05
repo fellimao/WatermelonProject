@@ -1,6 +1,7 @@
 ﻿body{
     font-family: 'Roboto Slab', serif;/* Tipo da fonte */
     font-size: 1.5rem;/* Tamanho da fonte */
+    color: #333;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -13,7 +14,7 @@
 } 
 
 .navbar {
-    background-color: #343a40 !important;/* Cor da barra de navegação */
+    background-color: #EEE9E9 !important;/* Cor da barra de navegação */
 }
 
 .dropdown-item.active, .dropdown-item:active {
@@ -46,14 +47,14 @@
 
 
 .fundoEscuro{
-    background-color: #343a40;
+    background-color: #727272;
     color: #fff;
     padding: 4rem;
 }
 
 .fundoClaro{
-    background-color: aliceblue;
-    color: #343a40;
+    background-color: #EEE9E9;
+    color: #333;
     padding: 4rem;
 }
 
@@ -62,12 +63,17 @@
     /*Aumenta o tamanho da fonte*/
 }
 
+/*Tamanho da fonte menor*/
+.smaller{
+    font-size: 1rem;
+}
+
 .letraBranca{
     color: #fff !important;
 }
 
 .letraEscura{
-    color: #343a40;
+    color: #333;
 }
 
 /*Cabeçalho login*/
@@ -95,7 +101,7 @@
 }
 
 .card-body-LogCad{
-    background-color: darkgrey;
+    background-color: #EEE9E9;
 }
 
 /*Propriedades extras do botão*/

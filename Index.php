@@ -1,4 +1,18 @@
 <html lang="pt/br">
+    <?php
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "infobiobd";
+
+        // Create connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+
+        // Check connection
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        }
+        ?>
     <head>
         <title>Insira o titulo aqui</title>
     	<meta charset="utf-8" />
@@ -55,7 +69,7 @@
                   <a class="nav-link" data-toggle="pill" href="#texto3">Texto 3</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" data-toggle="pill" href="#texto4">Cadastrar/Logar</a>
+                  <a class="nav-link" href="Cadastrar.php">Cadastrar</a>
                 </li>
               </ul>
             </div>
@@ -1015,16 +1029,16 @@
         
 </div>      
     
-        <div id="texto4" class="container-fluid tab-pane fade">
+    <div id="texto4" class="container-fluid tab-pane fade">
             <div class="row justify-content-center">
                 
-                
+             <!--   
                 <div class="col-md-4">
                     <div class="card card-LogCad">
                         <div class="card-header-login card-header"><h1 class="letraBranca">Login</h1>
                             <p class="letraBranca">Lorem ipsum et cetera</p>
                         </div>
-                      <div class="card-body card-body-LogCad"><form action="/Validar.php">
+                      <div class="card-body card-body-LogCad"><form action="Validar.php">
                           <div class="form-group">
                             <label for="email">Email:</label>
                             <input type="email" class="form-control" id="email">
@@ -1035,6 +1049,7 @@
                           </div>
                           <div class="form-group form-check">
                             <label class="form-check-label">
+                                    <input type="hidden" name="form_submitted" value="1" />
                             </label>
                           </div>
                           <button type="submit" class="btn btn-success">Logar</button>
@@ -1050,10 +1065,14 @@
                             <p class="letraBranca">Lorem ipsum et cetera</p>
                         </div>
                       <div class="card-body card-body-LogCad">
-                        <form action="/Validar.php">
+                        <form method="post" action="Validar.php">
                           <div class="form-group">
                             <label for="email">Email:</label>
-                            <input type="email" class="form-control" id="email">
+                            <input type="text" class="form-control" name="email" id="email">
+                          </div>
+                        <div class="form-group">
+                            <label for="name">Nome: </label>
+                            <input type="text" class="form-control" name="name" id="nome">
                           </div>
                           <div class="form-group">
                             <label for="pwd">Senha:</label>
@@ -1065,6 +1084,7 @@
                           </div>
                           <div class="form-group form-check">
                             <label class="form-check-label">
+                                <input type="hidden" name="form_submitted" value="1" />
                             </label>
                           </div>
                           <button type="submit" class="btn btn-danger">Cadastrar</button>
@@ -1072,7 +1092,7 @@
                       </div> 
                     </div>
                 </div>
-                
+                -->
                 
             </div>
         </div>

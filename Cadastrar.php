@@ -25,7 +25,7 @@
     </style>
     
     <body>     
-        <div class="bg-danger text-center bigger letraBranca">
+        <div class="bg-info text-center bigger letraBranca">
             <?php 
                 session_start();
                 echo $_SESSION['erro']; 

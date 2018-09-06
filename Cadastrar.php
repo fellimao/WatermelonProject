@@ -24,8 +24,13 @@
         }
     </style>
     
-    <body>    
-       
+    <body>     
+        <div class="bg-danger text-center bigger letraBranca">
+            <?php 
+                session_start();
+                echo $_SESSION['erro']; 
+            ?>
+            </div>
         <div class="container-fluid">
             <div class="row justify-content-center">
                 
@@ -44,20 +49,20 @@
                       <div class="card-body card-body-LogCad">
                         <form method="post" action="Validar.php">
                           <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="text" class="form-control" name="email" id="email">
-                          </div>
                         <div class="form-group">
                             <label for="name">Nome: </label>
-                            <input type="text" class="form-control" name="name" id="nome">
+                            <input type="text" class="form-control" name="nome" id="nome">
+                          </div>
+                            <label for="email">Email:</label>
+                            <input type="text" name="email" class="form-control">
                           </div>
                           <div class="form-group">
                             <label for="pwd">Senha:</label>
-                            <input type="password" class="form-control" id="pwd">
+                            <input type="password" class="form-control" name="senha1" id="pwd">
                           </div>
                         <div class="form-group">
                             <label for="pwd">Senha novamente:</label>
-                            <input type="password" class="form-control" id="pwd">
+                            <input type="password" class="form-control" name="senha2" id="pwd">
                           </div>
                           <div class="form-group form-check">
                             <label class="form-check-label">

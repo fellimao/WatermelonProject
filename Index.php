@@ -1,18 +1,4 @@
 <html lang="pt/br">
-    <?php
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "infobiobd";
-
-        // Create connection
-        $conn = new mysqli($servername, $username, $password, $dbname);
-
-        // Check connection
-        if ($conn->connect_error) {
-            die("Connection failed: " . $conn->connect_error);
-        }
-        ?>
     <head>
         <title>Insira o titulo aqui</title>
     	<meta charset="utf-8" />
@@ -28,6 +14,14 @@
         <link href="css/MainStyle.css" rel="stylesheet">
     </head>
     <body>
+        <?php
+            session_start();
+            //zerando variavel erro
+            $_SESSION['erro'] = "";    
+        ?>
+        
+        
+        
         <!-- 
             Barra de navegação
             fixed-top -> Deixa a barra presa no topo

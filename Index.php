@@ -1,7 +1,7 @@
 <html lang="pt/br">
     <head>
         <title>Insira o titulo aqui</title>
-    	<meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Fontes -->
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">

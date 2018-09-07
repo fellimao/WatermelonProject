@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Insira o titulo aqui</title>
-    	<meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Fontes -->
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
@@ -47,7 +47,12 @@
                             <p class="letraBranca">Lorem ipsum et cetera</p>
                         </div>
                       <div class="card-body card-body-LogCad">
-                        <form method="post" action="Validar.php">
+                          
+                    <!-- Inicio do formulario
+                        ACTION mostra para que pagina o botao submit deve levar os valores
+                 -->
+                          
+                        <form method="post" action="Validar_cadastro.php">
                           <div class="form-group">
                         <div class="form-group">
                             <label for="name">Nome: </label>

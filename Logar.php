@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Insira o titulo aqui</title>
-    	<meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Fontes -->
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
@@ -25,10 +25,19 @@
     </style>
     
     <body>    
+        
+        
+            <div class="bg-info text-center bigger letraBranca">
+            <?php 
+                session_start();
+                echo $_SESSION['erro']; 
+            ?>
+            </div>
+        
         <!-- Logotipo de preferencia em PNG -->
          <a class="navbar-brand" href="Index.php">
                             <img src="img/logomarca.png" alt="Logo" style="width:200px;">
-                        </a>
+        </a>
        
         <div class="container-fluid">
             <div class="row justify-content-center">
@@ -40,14 +49,14 @@
                         <div class="card-header-login card-header"><h1 class="letraBranca">Login</h1>
                             <p class="letraBranca">Lorem ipsum et cetera</p>
                         </div>
-                      <div class="card-body card-body-LogCad"><form action="Validar.php">
+                      <div class="card-body card-body-LogCad"><form action="Validar.php" method="post">
                           <div class="form-group">
                             <label for="email">Email:</label>
-                            <input type="email" class="form-control" id="email">
+                            <input type="email" name="email" class="form-control" id="email">
                           </div>
                           <div class="form-group">
                             <label for="pwd">Senha:</label>
-                            <input type="password" class="form-control" id="pwd">
+                            <input type="password" name="senha" class="form-control" id="pwd">
                           </div>
                           <div class="form-group form-check">
                             <label class="form-check-label">

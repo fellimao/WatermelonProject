@@ -87,6 +87,11 @@
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
     <div id="perfil" class="container-fluid tab-pane fade">
+            <div class="bg-info text-center bigger letraBranca">
+            <?php 
+                echo $_SESSION['erro']; 
+            ?>
+            </div>
         <div class="row">
                 <div class="col-md-4">
                 </div>
